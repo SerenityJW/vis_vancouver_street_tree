@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CMPT767</title>
+<!--    <link rel="stylesheet" type="text/css" href="main.css">-->
+    <style>
+        .large-vis {
+            width: 20%;
+            height: 1000px;
+            min-width: 1000px;
+            margin: 30px 0 0 0;
+        }
+        .vis {
+            width: 90%;
+            height: fit-content;
+            min-height: 500px;
+            margin: auto;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="vis">
+        <div class="center">
+            <svg class="large-vis" id="vis1"></svg>
+            <svg class="large-vis" id="vis2"></svg>
+        </div>
+    </div>
+</body>
+<script src="jquery-3.3.1.min.js"></script>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="main.js"></script>
+<script src="piechart_wjy_json.js"></script>
+</html>
